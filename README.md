@@ -39,11 +39,13 @@ Cada ficha tem dez seções, que acompanham as etapas do método:
 
 ## Dados
 
-As pastas de `dados/` contêm, para cada rodada, três arquivos:
+As pastas de `dados/` contêm, para cada rodada, três arquivos de resultado:
 
 - `comparacoes.csv`: um registro por par município-verificação, com o resultado da regra, a nota do Ranking Diário e o status do confronto;
 - `divergencias.csv`: os pares divergentes;
 - `resumo_regras.csv`: totais, pares comparáveis, convergentes e aderência por verificação.
+
+As rodadas de consolidação e de confirmação trazem ainda o `manifesto.json` (data da execução, commit do código, códigos de integridade dos módulos das fórmulas, hashes dos arquivos do Ranking Diário e versões dos programas) e o `SHA256SUMS.txt` (códigos de integridade dos arquivos do pacote da rodada; parte desses arquivos, como os detalhes por município, não está neste repositório). Esses arquivos não contêm código.
 
 | Rodada | Pasta | Observação |
 |---|---|---|
@@ -67,7 +69,7 @@ Aparecem em todas as fichas e registram o que não pôde ser comprovado. Os mais
 
 ## Sobre o código
 
-A implementação computacional (Python) que executou as regras não é divulgada. As fichas descrevem cada regra com o detalhe necessário para reimplementá-la: fontes, parâmetros, tratamentos e condição lógica. A verificação por terceiros da *especificação* é possível a partir deste repositório; a *reexecução* das rodadas exige acesso ao código, que pode ser concedido em contexto acadêmico a pedido ao autor.
+A implementação computacional (Python) que executou as regras não é divulgada. As fichas descrevem cada regra com o detalhe necessário para reimplementá-la: fontes, parâmetros, tratamentos e condição lógica. A *especificação* das regras pode ser examinada a partir deste repositório; a conferência da procedência das rodadas (commit, tag e códigos de integridade dos módulos) e a *reexecução* dependem do acesso ao código, restrito ao autor.
 
 ## Como citar
 

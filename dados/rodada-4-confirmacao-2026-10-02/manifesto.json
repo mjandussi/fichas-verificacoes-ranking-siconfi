@@ -1,0 +1,541 @@
+{
+  "bibliotecas": {
+    "httpx": "0.28.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "pyarrow": "24.0.0"
+  },
+  "csvs_ranking_diario": [
+    {
+      "arquivo": "dados_Angra dos Reis-RJ.csv",
+      "codigo": "3300100",
+      "sha256": "fa784213f792c86f73a77e0c23368f7f6ab488959801a5b6e54e8d689e4b90a6"
+    },
+    {
+      "arquivo": "dados_Aperibé-RJ.csv",
+      "codigo": "3300159",
+      "sha256": "52cea16d7aac5a87efa4583853aa6c435b3b655a268cefe223be6fbde33dafc1"
+    },
+    {
+      "arquivo": "dados_Araruama-RJ.csv",
+      "codigo": "3300209",
+      "sha256": "10e0174a56ffed44c01eace5f91c6bd0910b95434f7aa293b2e2901920a9748f"
+    },
+    {
+      "arquivo": "dados_Areal-RJ.csv",
+      "codigo": "3300225",
+      "sha256": "7d6b679d125b88e625735da2dff3cd2aa0b873b6e1196c67933ea227b0856552"
+    },
+    {
+      "arquivo": "dados_Armação dos Búzios-RJ.csv",
+      "codigo": "3300233",
+      "sha256": "7ea6938af46014b2e7edced627a7be6b21acee03ebc25f1d80f8025efb8f923a"
+    },
+    {
+      "arquivo": "dados_Arraial do Cabo-RJ.csv",
+      "codigo": "3300258",
+      "sha256": "5792bf6db3be2ed2549f564ffd37ba065726a71f72b85193f9f90b49c6a406e6"
+    },
+    {
+      "arquivo": "dados_Barra do Piraí-RJ.csv",
+      "codigo": "3300308",
+      "sha256": "d6c50e484851a842dfb5063f44a770de655af32753e90ca389668755215a3e9b"
+    },
+    {
+      "arquivo": "dados_Barra Mansa-RJ.csv",
+      "codigo": "3300407",
+      "sha256": "335873d73ff29f46bf67cc3059be3a5e4e72bbd1fb182026a7cf0db82e0b11c9"
+    },
+    {
+      "arquivo": "dados_Belford Roxo-RJ.csv",
+      "codigo": "3300456",
+      "sha256": "692ae572d7435e844a12edfe12be2068f1affe8c934815f71b299892b51abf2e"
+    },
+    {
+      "arquivo": "dados_Bom Jardim-RJ.csv",
+      "codigo": "3300506",
+      "sha256": "6be666c0c661c13a2af805024c2e5eda902b9e5fae885866eb2027e99d25377d"
+    },
+    {
+      "arquivo": "dados_Bom Jesus do Itabapoana-RJ.csv",
+      "codigo": "3300605",
+      "sha256": "9e26c0b19129613d4aff28293785ed40c66b1b6938ee625672567744e7f4e6e4"
+    },
+    {
+      "arquivo": "dados_Cabo Frio-RJ.csv",
+      "codigo": "3300704",
+      "sha256": "a72ce0047535bf87203946939b91b95f811e912412c74570c7debc74b4540bef"
+    },
+    {
+      "arquivo": "dados_Cachoeiras de Macacu-RJ.csv",
+      "codigo": "3300803",
+      "sha256": "05ca3ff0a08fbd50c2d211a1446d63141b5cd4b6b86484caff20cc8e800cbdcf"
+    },
+    {
+      "arquivo": "dados_Cambuci-RJ.csv",
+      "codigo": "3300902",
+      "sha256": "1eceddb878dfd2b197bd7c58e98d36625bb8a1232fa45e870358209151bb0b56"
+    },
+    {
+      "arquivo": "dados_Carapebus-RJ.csv",
+      "codigo": "3300936",
+      "sha256": "91e87c3d5cd36f38e1e6d8253b8604fd6e6155d40b464445a3df3239956130a6"
+    },
+    {
+      "arquivo": "dados_Comendador Levy Gasparian-RJ.csv",
+      "codigo": "3300951",
+      "sha256": "5d29ee2612d40a94587fa41c50d05079aaf71f77b3a4970987479b5fc2ee9327"
+    },
+    {
+      "arquivo": "dados_Campos dos Goytacazes-RJ.csv",
+      "codigo": "3301009",
+      "sha256": "e97340aebf0ef0d8b088a2ec57a503b4779cbc6dad9bf8e047531ff69ccc2782"
+    },
+    {
+      "arquivo": "dados_Cantagalo-RJ.csv",
+      "codigo": "3301108",
+      "sha256": "264176776f17d8d2deb3d1a3a687b4a11a8c92e43c8c17737206ba260148d9a0"
+    },
+    {
+      "arquivo": "dados_Cardoso Moreira-RJ.csv",
+      "codigo": "3301157",
+      "sha256": "a1f7610cccf6f11a11aa4f47af4897905106e6963bc13edff6a4d06a5afa13b1"
+    },
+    {
+      "arquivo": "dados_Carmo-RJ.csv",
+      "codigo": "3301207",
+      "sha256": "f3982f70031cbc435ec0587057dca96b740218603bf9e96ad3c5620d3128c4f2"
+    },
+    {
+      "arquivo": "dados_Casimiro de Abreu-RJ.csv",
+      "codigo": "3301306",
+      "sha256": "45ddfe3790f1ba1912bbfe60ee453f54c76ddb96c5254e4a672e9169a94b2429"
+    },
+    {
+      "arquivo": "dados_Conceição de Macabu-RJ.csv",
+      "codigo": "3301405",
+      "sha256": "6760db07e9b80d03a0ba8c34c0d7e4d6f4d4aad4ba148064bcefb61559b802b6"
+    },
+    {
+      "arquivo": "dados_Cordeiro-RJ.csv",
+      "codigo": "3301504",
+      "sha256": "e3a1c8bb90258e8ca1b8158df69b693dda5267681ac3d358426fdf4409bf2cc2"
+    },
+    {
+      "arquivo": "dados_Duas Barras-RJ.csv",
+      "codigo": "3301603",
+      "sha256": "9ce3125fc4a0f355fb255c82e9f674764f456e0a722da1f6c2d9aa32f8d21b64"
+    },
+    {
+      "arquivo": "dados_Duque de Caxias-RJ.csv",
+      "codigo": "3301702",
+      "sha256": "dbe7bf03a8169a541988a07759e77b79e0318f3c33016d08614446bea2cc7ff7"
+    },
+    {
+      "arquivo": "dados_Engenheiro Paulo de Frontin-RJ.csv",
+      "codigo": "3301801",
+      "sha256": "793c1307a6f5f0d337b0dbaa06ff27cdf04c2edebc89445de05fcd302c2dcfbe"
+    },
+    {
+      "arquivo": "dados_Guapimirim-RJ.csv",
+      "codigo": "3301850",
+      "sha256": "fbed4b505b6592dc10e6ff0cbabc433c24c98fb53a922bee055f46008e04ee27"
+    },
+    {
+      "arquivo": "dados_Iguaba Grande-RJ.csv",
+      "codigo": "3301876",
+      "sha256": "1ea783a2047aab9728ea3ede97e18651248c1752a6ff772d09ee0fc866fa91ef"
+    },
+    {
+      "arquivo": "dados_Itaboraí-RJ.csv",
+      "codigo": "3301900",
+      "sha256": "815f9cf685eeca3649dda7e1245deae9520af3c91fc358097fafc716b1360beb"
+    },
+    {
+      "arquivo": "dados_Itaguaí-RJ.csv",
+      "codigo": "3302007",
+      "sha256": "228ba5cc64e73f50953b117ff3e4e6c876db3571b3fbe77c2f7cd96fd2886ea0"
+    },
+    {
+      "arquivo": "dados_Italva-RJ.csv",
+      "codigo": "3302056",
+      "sha256": "b3d58d9e26a08f4aee53997683ac977e918b4ff51a932028e40e35c945bf76b8"
+    },
+    {
+      "arquivo": "dados_Itaocara-RJ.csv",
+      "codigo": "3302106",
+      "sha256": "e8cc7569fbec3aedc3624572a41645d3dfe3fccdc87cc3c3c969a1aa26621457"
+    },
+    {
+      "arquivo": "dados_Itaperuna-RJ.csv",
+      "codigo": "3302205",
+      "sha256": "ccef628e268d4f1cdf8cb21df4a77885cca5340083a370f1d27fec24be024d6c"
+    },
+    {
+      "arquivo": "dados_Itatiaia-RJ.csv",
+      "codigo": "3302254",
+      "sha256": "1f4d89bccc454c96e9564fea52c6a8b313e1a007b11d28a55df21f79e2c713bd"
+    },
+    {
+      "arquivo": "dados_Japeri-RJ.csv",
+      "codigo": "3302270",
+      "sha256": "e6630a369d47440aa1118824af3dfede3508b2c1d6aca9050253ed6193dbc9b6"
+    },
+    {
+      "arquivo": "dados_Laje do Muriaé-RJ.csv",
+      "codigo": "3302304",
+      "sha256": "6b0c7cb884c216351dbec9508e59fa215a2b8a61a1187e5772a777d83dad4f21"
+    },
+    {
+      "arquivo": "dados_Macaé-RJ.csv",
+      "codigo": "3302403",
+      "sha256": "9518e4c1d8f4dfc7432f4ec9c7d7671e15ff9fd76a96425a390e84ce7504fbbb"
+    },
+    {
+      "arquivo": "dados_Macuco-RJ.csv",
+      "codigo": "3302452",
+      "sha256": "9f3053a9445fd6616fb6425b7d15bf7ed55b9c82c7273e417d642b30321e6a20"
+    },
+    {
+      "arquivo": "dados_Magé-RJ.csv",
+      "codigo": "3302502",
+      "sha256": "750a7dbb1a1b694bee6eef2ef68ceb1326297f27c4e5c4d716bedc7c97aa6882"
+    },
+    {
+      "arquivo": "dados_Mangaratiba-RJ.csv",
+      "codigo": "3302601",
+      "sha256": "e83821941a92ac04ea563bc8940e2122947b5a424e0dadacb75de17abc94d739"
+    },
+    {
+      "arquivo": "dados_Maricá-RJ.csv",
+      "codigo": "3302700",
+      "sha256": "40bf3981c7492d241846b8372ffba62cae77abc3cf00f5b59e643cfcb1dea3eb"
+    },
+    {
+      "arquivo": "dados_Mendes-RJ.csv",
+      "codigo": "3302809",
+      "sha256": "eb1cea60e26b269f83a972936633296167fd8ffcbe8801b0ee1c9fe5dd755bd1"
+    },
+    {
+      "arquivo": "dados_Mesquita-RJ.csv",
+      "codigo": "3302858",
+      "sha256": "a734a6cd00cad5be6c3177eae5f1a068940e0142be7da5ef60fb319b10e4c3b4"
+    },
+    {
+      "arquivo": "dados_Miguel Pereira-RJ.csv",
+      "codigo": "3302908",
+      "sha256": "53d9ed2564c2b46fcf6c23fdde729a269aaba592f74373f81bd2d2ee1f4380c0"
+    },
+    {
+      "arquivo": "dados_Miracema-RJ.csv",
+      "codigo": "3303005",
+      "sha256": "1b7b33bd570484f8a5d1e56180aea8a6760dbf9293953251fd7a5dad46057f90"
+    },
+    {
+      "arquivo": "dados_Natividade-RJ.csv",
+      "codigo": "3303104",
+      "sha256": "584b56df51f7adf9efeccf9dda958df4f2fd55b0bff1fa5179bcedbd1655a42b"
+    },
+    {
+      "arquivo": "dados_Nilópolis-RJ.csv",
+      "codigo": "3303203",
+      "sha256": "1e132e9f0ee2969a594a5810d9b81211ca183f8e69b7d989aa8f362a30ee5181"
+    },
+    {
+      "arquivo": "dados_Niterói-RJ.csv",
+      "codigo": "3303302",
+      "sha256": "bde8799955b85856ecbb7f00c69dd994d7bde275936a3d7a68ed488e8c0057f6"
+    },
+    {
+      "arquivo": "dados_Nova Friburgo-RJ.csv",
+      "codigo": "3303401",
+      "sha256": "2cd4c7cc00188cdcaeec5ba4257bda7bc82a4b708f7e922f618f01198b45d4c9"
+    },
+    {
+      "arquivo": "dados_Nova Iguaçu-RJ.csv",
+      "codigo": "3303500",
+      "sha256": "2a74fee17188750724b611108c08ee0cd74f9a774fe8c000dccd980aacb108df"
+    },
+    {
+      "arquivo": "dados_Paracambi-RJ.csv",
+      "codigo": "3303609",
+      "sha256": "4eee79faf6f039e510702358ecc935c5cd644bc6b1791b69c13075b4689ff4bb"
+    },
+    {
+      "arquivo": "dados_Paraíba do Sul-RJ.csv",
+      "codigo": "3303708",
+      "sha256": "967e60e60af13d0ff8913bce7980e36abee5afbf245ecf33ab2617a2192a4df0"
+    },
+    {
+      "arquivo": "dados_Paraty-RJ.csv",
+      "codigo": "3303807",
+      "sha256": "c92591ed3843aef8d3d6e32b54eb03bcd33f9ea2fb163d5844cd5cf2c1ef817d"
+    },
+    {
+      "arquivo": "dados_Paty do Alferes-RJ.csv",
+      "codigo": "3303856",
+      "sha256": "b08b525cfc703667a3211c18b5e447508d1684193d38790f42fe477ee0a0a0bc"
+    },
+    {
+      "arquivo": "dados_Petrópolis-RJ.csv",
+      "codigo": "3303906",
+      "sha256": "69886d32e411281aeb06baa4722ac88d046cdfc88590a4a24d226081a2992729"
+    },
+    {
+      "arquivo": "dados_Pinheiral-RJ.csv",
+      "codigo": "3303955",
+      "sha256": "bcb326c23e723b767c07578f1979822417a89c8493e04cd835fc47fec17e1785"
+    },
+    {
+      "arquivo": "dados_Piraí-RJ.csv",
+      "codigo": "3304003",
+      "sha256": "b7e95174c49a94585f5c182741ee383156141ea2eb349dcfc9ba029ef4cd85ac"
+    },
+    {
+      "arquivo": "dados_Porciúncula-RJ.csv",
+      "codigo": "3304102",
+      "sha256": "a1e709fba566793eec54f1097d1a26f7fbf59ba37d663d804726c1edc8b5c942"
+    },
+    {
+      "arquivo": "dados_Porto Real-RJ.csv",
+      "codigo": "3304110",
+      "sha256": "e82e79af4002923598e4d79f141c4f465786dbbe8592a4e25cb90dc23a544230"
+    },
+    {
+      "arquivo": "dados_Quatis-RJ.csv",
+      "codigo": "3304128",
+      "sha256": "04ac911f248dd9bcd75e4054bde8003f5a11678f04524388703b7ca153e6561b"
+    },
+    {
+      "arquivo": "dados_Queimados-RJ.csv",
+      "codigo": "3304144",
+      "sha256": "768884a006c3ac6a95ab2a90abfa94217c6ff9bd3762818fc2e14c05e22eb716"
+    },
+    {
+      "arquivo": "dados_Quissamã-RJ.csv",
+      "codigo": "3304151",
+      "sha256": "6bce69c6e6ed19d1e8f11ef804bc4faf74488a5f73b499a5422a3ebbd98da3f9"
+    },
+    {
+      "arquivo": "dados_Resende-RJ.csv",
+      "codigo": "3304201",
+      "sha256": "377de481f438a50585a854cd86723dd2eb6fc40de20eefb69f44e986869dc82b"
+    },
+    {
+      "arquivo": "dados_Rio Bonito-RJ.csv",
+      "codigo": "3304300",
+      "sha256": "dbb629f32617955ba107f3e31fd3bc5ab370ce463cd15c1e2ad3797d66305ccf"
+    },
+    {
+      "arquivo": "dados_Rio Claro-RJ.csv",
+      "codigo": "3304409",
+      "sha256": "9077fc4171b3650f5720410138cf52c1960d629c7c52eeebc14eda2e64662342"
+    },
+    {
+      "arquivo": "dados_Rio das Flores-RJ.csv",
+      "codigo": "3304508",
+      "sha256": "23e3dd4ecb9c4789cc297c5a2185b063db78a7587bcf341cc910182f51e06bd0"
+    },
+    {
+      "arquivo": "dados_Rio das Ostras-RJ.csv",
+      "codigo": "3304524",
+      "sha256": "98869d318a231903e96eaadc9f31efb3246abd5659246aebada41a98ad5ccd3d"
+    },
+    {
+      "arquivo": "dados_Rio de Janeiro-RJ.csv",
+      "codigo": "3304557",
+      "sha256": "06877b8bb38a29057109e160c0da5986e917291d3dcfc84925aa8be9d8f072bc"
+    },
+    {
+      "arquivo": "dados_Santa Maria Madalena-RJ.csv",
+      "codigo": "3304607",
+      "sha256": "87fb8219536677819ac2386ef21a757523281f5d75cb6e6205e82b581f085245"
+    },
+    {
+      "arquivo": "dados_Santo Antônio de Pádua-RJ.csv",
+      "codigo": "3304706",
+      "sha256": "76f343eccdf1fe146bf62b767b488dafbc7a41dbe8c63b9cb1ef1da76e1d4558"
+    },
+    {
+      "arquivo": "dados_São Francisco de Itabapoana-RJ.csv",
+      "codigo": "3304755",
+      "sha256": "0e193476f67f88b759bc08ab547d14169470c650383908a75351d69575415302"
+    },
+    {
+      "arquivo": "dados_São Fidélis-RJ.csv",
+      "codigo": "3304805",
+      "sha256": "36cc98a8551661e7c26de2297b124f28a8796cc9b1d7aa5492804249b0062c36"
+    },
+    {
+      "arquivo": "dados_São Gonçalo-RJ.csv",
+      "codigo": "3304904",
+      "sha256": "0cad37fa785b02fc72200a1fdcd3729972a9a3043002d052ed4e1afd6ef974ad"
+    },
+    {
+      "arquivo": "dados_São João da Barra-RJ.csv",
+      "codigo": "3305000",
+      "sha256": "bc176d3807e6f5d426c0c3d7bbde41bc0fca96178622867efdfd4f0b7a73d33f"
+    },
+    {
+      "arquivo": "dados_São João de Meriti-RJ.csv",
+      "codigo": "3305109",
+      "sha256": "fdb390c91bf93aa29de46db7a6c9e77c88303b61ab653245aef374579d3fa450"
+    },
+    {
+      "arquivo": "dados_São José de Ubá-RJ.csv",
+      "codigo": "3305133",
+      "sha256": "2e9aa92dff9756d3a461fc89be8d48f439d325c07c264b25366594c076c0b01f"
+    },
+    {
+      "arquivo": "dados_São José do Vale do Rio Preto-RJ.csv",
+      "codigo": "3305158",
+      "sha256": "d054199a92eec7603c7ad7178a8bbea0afd1a859e79517c6f0bb4012d7eb37d4"
+    },
+    {
+      "arquivo": "dados_São Pedro da Aldeia-RJ.csv",
+      "codigo": "3305208",
+      "sha256": "d65438764ad6d7fe90235cc5c908d8f6de295bfe6d3f25e834609982c5ffbc23"
+    },
+    {
+      "arquivo": "dados_São Sebastião do Alto-RJ.csv",
+      "codigo": "3305307",
+      "sha256": "f6ff837ead59449d7d719b13194a9ac2d8252cc46e16964ba742a3fd260176f3"
+    },
+    {
+      "arquivo": "dados_Sapucaia-RJ.csv",
+      "codigo": "3305406",
+      "sha256": "14495d2226dca9965fcfae1d86017cb5c6dcc402a76830b9d0a0d6ce076ae859"
+    },
+    {
+      "arquivo": "dados_Saquarema-RJ.csv",
+      "codigo": "3305505",
+      "sha256": "bf25184e2e9080633868fe3afb79acb2267794d68fe234aa0950363948200e10"
+    },
+    {
+      "arquivo": "dados_Seropédica-RJ.csv",
+      "codigo": "3305554",
+      "sha256": "d7f1181eb437aefb5c0678cd1f9feb7ed200d5ac6b2a80cd26657ac163b8f694"
+    },
+    {
+      "arquivo": "dados_Silva Jardim-RJ.csv",
+      "codigo": "3305604",
+      "sha256": "5f11c13f6840bdd7073ce00fa0c813c69a9fbf9a750e128e3f1380183a744c7e"
+    },
+    {
+      "arquivo": "dados_Sumidouro-RJ.csv",
+      "codigo": "3305703",
+      "sha256": "d263692ae4dd8faa8bd46b6b9625706980d1bbafd850b00ea5805f8eaa58e497"
+    },
+    {
+      "arquivo": "dados_Tanguá-RJ.csv",
+      "codigo": "3305752",
+      "sha256": "5263b972470a198e665ea6d316e2bbc59d0518f607b1acd9b975245ca6aa0fde"
+    },
+    {
+      "arquivo": "dados_Teresópolis-RJ.csv",
+      "codigo": "3305802",
+      "sha256": "dd4d31484a4888a47c1df91eb16c024d7c9a0b33d1dd819ff23de4fd10c88d3c"
+    },
+    {
+      "arquivo": "dados_Trajano de Moraes-RJ.csv",
+      "codigo": "3305901",
+      "sha256": "caa1ee5c2d82ebd4be15e81e3f7b54353165be3a3ce087f0ea66437069c040cc"
+    },
+    {
+      "arquivo": "dados_Três Rios-RJ.csv",
+      "codigo": "3306008",
+      "sha256": "b16b8222410fe4817c924dcc43340e03b38889ccdc33e6ce4b7d0a2c8124c6da"
+    },
+    {
+      "arquivo": "dados_Valença-RJ.csv",
+      "codigo": "3306107",
+      "sha256": "d5063d2ae01a7024ee991eb4046b29eef3626d6481f3fd87073edb5b1f8c2446"
+    },
+    {
+      "arquivo": "dados_Varre-Sai-RJ.csv",
+      "codigo": "3306156",
+      "sha256": "f8b1037ebacecfedf0d8be5a576128ad2f0a4af1c1d8a1bfcd71372cbd03f157"
+    },
+    {
+      "arquivo": "dados_Vassouras-RJ.csv",
+      "codigo": "3306206",
+      "sha256": "f50f93920515d0c072b7d0b751739fd82aae10390604d9f7bbbfb12456d864ad"
+    },
+    {
+      "arquivo": "dados_Volta Redonda-RJ.csv",
+      "codigo": "3306305",
+      "sha256": "5f25b6361815cb31ff8174d174efb14f1340c7dc9c3f7525961fbbe7bd979b34"
+    }
+  ],
+  "data_ranking_diario": "2026-10-02",
+  "falhas": [
+    {
+      "codigo": "3301009",
+      "mensagem": "Demonstrativos obrigatórios ausentes: RREO final, RGF final",
+      "municipio": "Campos dos Goytacazes-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    },
+    {
+      "codigo": "3301207",
+      "mensagem": "Demonstrativos obrigatórios ausentes: DCA",
+      "municipio": "Carmo-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    },
+    {
+      "codigo": "3302502",
+      "mensagem": "Demonstrativos obrigatórios ausentes: DCA, RREO final",
+      "municipio": "Magé-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    },
+    {
+      "codigo": "3302809",
+      "mensagem": "Demonstrativos obrigatórios ausentes: DCA, RREO final",
+      "municipio": "Mendes-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    },
+    {
+      "codigo": "3303005",
+      "mensagem": "Demonstrativos obrigatórios ausentes: DCA, RGF final",
+      "municipio": "Miracema-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    },
+    {
+      "codigo": "3304755",
+      "mensagem": "Demonstrativos obrigatórios ausentes: DCA, RREO final",
+      "municipio": "São Francisco de Itabapoana-RJ",
+      "tipo": "DemonstrativosObrigatoriosAusentes"
+    }
+  ],
+  "git": {
+    "alteracoes_nao_commitadas": false,
+    "arquivos_alterados": [],
+    "commit": "2cae430ac80e6b03a82e9fb39d1a88121d014ac4"
+  },
+  "hashes_codigo": {
+    "api_ranking/analysis/d2_cruzamentos.py": "b4a06ff3767818dfeada0f99988fc0e0e5c94ddcf9818f68dbe4d5ca2bf63af1",
+    "api_ranking/analysis/d3_cruzamentos.py": "56f194cf7f1859c659ae87f10bb70dee1ccd89aa00f1950fbef12e5eb2175e69",
+    "api_ranking/analysis/d4_cruzamentos.py": "38a76077101b357bf1bf9117ec3f362ce2ffe325e479bf9a109fe93f28968e88",
+    "api_ranking/analysis/presence.py": "14865896823e36c017af096efd6042b0b5cda5dce13f588269948b736297078c",
+    "api_ranking/services/analysis_pipeline.py": "3b3e606a01ffbb876d29171f09546d7117f022cbf21331b799b49d9baa3421e5",
+    "api_ranking/services/api_loader.py": "cda22562580d4905062720e7dc593a6b294e9e98d54c0b1a5929190bd6d03944",
+    "api_ranking/services/ranking_comparison.py": "b06ec60b4d7f1bc5b568c6ed770292e57176e65f58efdf4a76bbaf6f909e3181",
+    "api_ranking/verification_scope.py": "ecb1cd8d324897ea1681efde61ebe2876405cf30f3076c86f58919c3621dbca2",
+    "validacao_academica/evidencias.py": "e2e7a3ac68a227212d6faa8464141bddfc2759f65285aee286eeadf05ec8a9c8",
+    "validacao_academica/executar.py": "41d1b7818388ecc65c9f6b95c3c9012377c5ce8985e7d19eda5228e3b3d7cb2a"
+  },
+  "protocolo": "N municípios x 72 regras; N é definido pelos CSVs da pasta",
+  "python": "3.12.15 (main, Oct  1 2026, 21:46:48) [GCC 14.2.0]",
+  "resumo": {
+    "aderencia_percentual": 99.88346928583319,
+    "comparacoes_esperadas": 6624,
+    "comparacoes_geradas": 6192,
+    "comparaveis": 6007,
+    "convergentes": 6000,
+    "divergentes": 7,
+    "executado_em_brasilia": "2026-10-02T15:21:06.916309-03:00",
+    "falhas": 6,
+    "municipios_previstos": 92,
+    "municipios_validados": 86,
+    "nao_comparaveis": 185
+  }
+}
