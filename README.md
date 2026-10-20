@@ -47,9 +47,9 @@ As pastas de `dados/` contêm, para cada rodada, três arquivos:
 
 | Rodada | Pasta | Observação |
 |---|---|---|
-| Desenvolvimento, agosto/2026 | `rodada-1-desenvolvimento-2026-08` | Execução final do ciclo de agosto, com os municípios do bloco inicial |
-| Consolidação, 19/09/2026 | `rodada-3-consolidacao-2026-09-19` | 92 municípios; regras após os refinamentos de setembro |
-| Confirmação, 02/10/2026 | `rodada-4-confirmacao-2026-10-02` | Regras congeladas em 20/09/2026 |
+| Desenvolvimento, agosto/2026 | `rodada-1-desenvolvimento-2026-08` | Execução final do ciclo de agosto, com 37 municípios (bloco inicial) |
+| Consolidação, 19/09/2026 | `rodada-3-consolidacao-2026-09-19` | 86 municípios avaliados dos 92; regras após os refinamentos de setembro |
+| Confirmação, 02/10/2026 | `rodada-4-confirmacao-2026-10-02` | 86 municípios avaliados dos 92; regras congeladas em 20/09/2026 |
 
 A rodada de setembro (04/09/2026) e as fontes brutas preservadas não estão neste repositório.
 
